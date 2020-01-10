@@ -1,6 +1,6 @@
 /****************************************************************
 *	Desenvolva um programa onde o usuario preencha duas matrizes*
-*	3x3 e ao término exiba a matriz soma das duas               *
+*	3x3 e ao tÃ©rmino exiba a matriz soma das duas               *
 *****************************************************************/
 
 #include <stdio.h>
