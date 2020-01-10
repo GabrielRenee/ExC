@@ -1,9 +1,9 @@
 /*************************************************
-*					Exercicio 1                  *
-*												 *
-* Desenvolva um programa onde o usuário informe a*
-* base e a altura de um retângulo e o programa   *
-* calcule e exiba a respectiva área.		     *
+*		Exercicio 1                      *
+*						 *
+* Desenvolva um programa onde o usuÃ¡rio informe a*
+* base e a altura de um retÃ¢ngulo e o programa   *
+* calcule e exiba a respectiva Ã¡rea.		 *
 **************************************************/
 
 #include <stdio.h> 
@@ -12,22 +12,22 @@
 
 int main(){
 	
-	float base, alt, area; //declaração das variáveis
+	float base, alt, area; //declaraÃ§Ã£o das variÃ¡veis
 	setlocale(LC_ALL,"");
 	
-	printf("** PROGRAMA ÁREA RETÂNGULO **\n");
+	printf("** PROGRAMA ÃREA RETÃ‚NGULO **\n");
 	
 	/*** Entrada de dados ***/
-	printf("Digite a medida da base do retângulo em metros:\n");
+	printf("Digite a medida da base do retÃ¢ngulo em metros:\n");
 	scanf ("%f", &base);	
-	printf("Digite a medida da altura do retângulo em metros:\n");
+	printf("Digite a medida da altura do retÃ¢ngulo em metros:\n");
 	scanf ("%f", &alt);
 	
-	/*** Cálculo da área ***/
+	/*** CÃ¡lculo da Ã¡rea ***/
 	area = base * alt;
 	
-	/*** Saída de dados ***/
-	printf("\n \n A área do retângulo tem %.2f metros \n", area);
+	/*** SaÃ­da de dados ***/
+	printf("\n \n A Ã¡rea do retÃ¢ngulo tem %.2f metros \n", area);
 	
 	system("pause"); // impede o programa de encerrar automaticamente
 }
